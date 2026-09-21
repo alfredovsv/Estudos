@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciando passos com DOM</title>
+
+    <style>
+        body {
+            background: rgb(19, 2, 68);
+            color: white;
+            font: normal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando em DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Apredendo a usar <strong> DOM </strong> em JavaScript</p>
+    <div class="msg">Clique em mim aqui</div>
+
+    <script>
+        // window.document.write('Olá munda! </br>')
+        // window.document.write (window.document.charset + "</br>")
+        // window.document.write (`${window.navigator.appName} </br>`)
+
+        var p1 = window.document.getElementsByTagName('p')[0]
+        // window.document.write ('Esta escrito assim' + p1.innerText)
+        document.write('Esta Escrito -> ' + p1.innerText + '</br>')
+        p1.style.color = 'blue'
+
+        // //Alterando CSS
+        // corpo = window.document.body
+        // corpo.style.background = 'blue'
+
+        // document.write(p1.innerHTML);
+
+        //Usando selector querySelector() ou querySelectorAll()
+        var s = window.document.querySelector('div.msg').style.background = 'green'
+    </script>
+</body>
+</html>
