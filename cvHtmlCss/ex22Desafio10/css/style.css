@@ -1,0 +1,137 @@
+@font-face {
+
+    /*alfredovs: validar*/
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+    /*
+            tipos de fomart()
+            -opentype (oft)
+            -truetype (ttf)
+            -embedde-opentype
+            -trueypes-aat (Apple Advanced Typography)
+            -svg
+            */
+}
+
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+    background-image: linear-gradient(to top, #1A5C38, #3BD47F);
+    color: white;
+
+
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.384);
+    padding: 10px;
+
+}
+
+p {
+    text-indent: 20px;
+}
+
+
+header>p {
+    margin: auto;
+    width: 400px;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.384);
+}
+
+nav {
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.397);
+    padding: 5px;
+
+}
+
+nav>a {
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    background-color: #84E1AD;
+    padding: 0px 10px;
+}
+
+
+
+article {
+    background-color: white;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.377);
+    padding: 10px;
+}
+
+h2 {
+    font-family: 'idroid', sans-serif; /*alfredovs: validar*/
+    color: #1B5E39;
+}
+
+h3 {
+    font-family: 'idroid', sans-serif;/*alfredovs: validar*/
+    background-color: #E3F6EB;
+    color: #1B5E39;
+}
+
+img {
+    display: block;
+    margin: auto; 
+}
+
+section#video{
+    background-color: #1A5C38;
+    padding: 20px 40px;
+}
+
+section#video > iframe{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+section#extra {
+    background-color: white;
+    padding: 10px;
+}
+
+section#extra > div#titulo{
+    color: white;
+    background-color: #2FA866;
+    padding: 5px 15px;
+
+    border-radius: 10px 10px 0px 0px;
+}
+
+section#extra > div#mensagem {
+    background-color: #C5EBD6;
+    padding: 20px 10px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+footer {
+    background-color: #1A5C38;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+}
+
+footer > p {
+    margin: 0px;
+}
